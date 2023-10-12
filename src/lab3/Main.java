@@ -40,6 +40,7 @@ public class Main {
 
 
 
+
         //date
         System.out.println("Enter day ");
         String day=in.nextLine();
@@ -62,7 +63,8 @@ public class Main {
 
         Music m6= new Music(title, duration, genre, albumName, new Date(day, date, month, year), new Artist( name, nationality,rating ) );
         System.out.println(m6.toString());
-
+    m1.equals( m2 );
     }
+
     }
 

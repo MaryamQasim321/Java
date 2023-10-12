@@ -45,4 +45,5 @@ public Artist(String name, String nationality, int rating){
     public String toString() {
         return String.format("%s   %s   %d", name, nationality, rating);
     }
+
 }

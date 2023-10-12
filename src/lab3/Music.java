@@ -88,6 +88,6 @@ public Music(String title, int duration, String genre, String albumName, Date re
     public boolean equals(Object obj1) {
     Music temp=(Music) obj1;
 
-        return getArtistName().equals( temp.getArtistName())&& getTitle().equals( temp.getTitle() );
+        return this.getArtistName().equals( temp.getArtistName())&& this.getTitle().equals( temp.getTitle() );
     }
 }
